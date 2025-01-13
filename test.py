@@ -1,4 +1,5 @@
-#testing accuracy on test dataset
+#testowanie modelu za pomocą testu zamieszczonego w zestawie danych uczących
+
 import keras
 import numpy as np 
 import pandas as pd 

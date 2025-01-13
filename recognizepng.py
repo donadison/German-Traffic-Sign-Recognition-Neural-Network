@@ -1,3 +1,5 @@
+#plik do rozpoznawania danego zdjęcia
+
 import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
@@ -49,6 +51,6 @@ def recognize_traffic_sign(image_path):
     return sign_name, pred
 
 # Testowanie funkcji na obrazie PNG
-image_path = '00086.png'  # Podaj ścieżkę do pliku PNG z obrazem
+image_path = r"settest"  # Podaj ścieżkę do pliku PNG z obrazem
 sign_name, pred = recognize_traffic_sign(image_path)
 
